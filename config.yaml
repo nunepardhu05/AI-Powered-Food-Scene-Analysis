@@ -1,0 +1,10 @@
+seed: 42
+recognition_threshold: 0.65
+max_image_bytes: 10000000
+max_image_pixels: 16000000
+minimum_portion_g: 1
+maximum_portion_g: 5000
+default_plate_diameter_cm: 26
+assumed_weight_relative_uncertainty: 0.60
+measured_weight_relative_uncertainty: 0.10
+rule_version: '0.1.0'

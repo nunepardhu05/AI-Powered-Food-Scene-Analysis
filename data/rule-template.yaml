@@ -1,0 +1,20 @@
+id: new-condition
+name: New condition
+group: Other
+version: 0.1.0
+tier: 1
+status: draft
+personalized: false
+icd10cm: null
+icd11: null
+limits: {}
+per_meal_limits: {}
+prefer:
+- Balanced varied diet
+avoid: []
+source:
+  organization: WHO
+  url: https://www.who.int/news-room/fact-sheets/detail/healthy-diet
+  verification: Not reviewed
+last_reviewed: null
+reviewer: null

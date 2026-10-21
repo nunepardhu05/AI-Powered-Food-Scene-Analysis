@@ -1,0 +1,22 @@
+id: gestational-diabetes
+name: Gestational diabetes
+group: Metabolic / endocrine
+version: 0.1.0
+tier: 2
+status: draft
+personalized: true
+icd10cm: O24.4
+icd11: null
+coding_note: Category-level ICD-10-CM where verified; unmapped entries need professional
+  coding; never an inferred diagnosis
+limits: {}
+per_meal_limits: {}
+prefer:
+- "Use the obstetric diabetes team\u2019s carbohydrate and energy targets"
+avoid: []
+source:
+  organization: ADA
+  url: https://professional.diabetes.org/standards-of-care
+  verification: Candidate source; rule not clinically reviewed
+last_reviewed: null
+reviewer: null

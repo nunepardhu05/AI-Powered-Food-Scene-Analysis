@@ -1,0 +1,4 @@
+empty_plate.png: PASS — no fabricated detections; 2 warnings
+dark.png: PASS — no fabricated detections; 4 warnings
+synthetic_food_scene.png: PASS — no fabricated detections; 2 warnings
+3/3 fixture smoke checks passed. Real-model smoke evaluation has NOT run.

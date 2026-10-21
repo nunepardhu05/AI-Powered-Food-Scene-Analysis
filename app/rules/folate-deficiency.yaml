@@ -1,0 +1,22 @@
+id: folate-deficiency
+name: Folate deficiency
+group: Metabolic / endocrine
+version: 0.1.0
+tier: 1
+status: draft
+personalized: false
+icd10cm: null
+icd11: null
+coding_note: Category-level ICD-10-CM where verified; unmapped entries need professional
+  coding; never an inferred diagnosis
+limits: {}
+per_meal_limits: {}
+prefer:
+- Balanced varied meals support general health
+avoid: []
+source:
+  organization: WHO
+  url: https://www.who.int/news-room/fact-sheets/detail/healthy-diet
+  verification: Candidate source; rule not clinically reviewed
+last_reviewed: null
+reviewer: null

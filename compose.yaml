@@ -1,0 +1,22 @@
+services:
+  app:
+    build: .
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - nutrition-data:/app/local-data
+      - ./models:/app/models:ro
+    environment:
+      NUTRI_DB: /app/local-data/nutriscope.sqlite
+      NUTRI_ALLOWED_HOSTS: localhost,127.0.0.1
+      FDC_API_KEY: ${FDC_API_KEY:-}
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    restart: unless-stopped
+volumes:
+  nutrition-data:

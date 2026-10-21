@@ -1,0 +1,12 @@
+id,name,kcal,carbs_g,sugars_g,protein_g,fat_g,fiber_g,sodium_mg,potassium_mg,phosphorus_mg,iron_mg,calcium_mg,vitamin_c_mg,vitamin_k_ug,vitamin_b12_ug,vitamin_d_ug,purines_mg,oxalate_mg,gi,allergens,tags,density,packing,fdc_id,source
+rice,Cooked white rice,130,28.2,0.1,2.7,0.3,0.4,1,35,43,0.2,10,0,0,0,0,,,73,,vegan;grain;gluten-free,0.75,0.9,,Illustrative USDA-style seed; verify before use
+lentils,Cooked lentils,116,20.1,1.8,9,0.4,7.9,2,369,180,3.3,19,1.5,1.7,0,0,,,,,vegan;legume;gluten-free,1.05,0.95,,Illustrative USDA-style seed; verify before use
+oats,Cooked oatmeal,71,12,0.3,2.5,1.5,1.7,4,70,77,0.9,9,0,0.3,0,0,,,55,wheat,vegan;grain,1,0.95,,Illustrative seed; oats require certified gluten-free verification
+apple,Apple with skin,52,13.8,10.4,0.3,0.2,2.4,1,107,11,0.1,6,4.6,2.2,0,0,,,36,,vegan;fruit;gluten-free,0.85,0.85,,Illustrative USDA-style seed; verify before use
+broccoli,Cooked broccoli,35,7.2,1.4,2.4,0.4,3.3,41,293,67,0.7,40,64.9,141,0,0,,,,,vegan;vegetable;gluten-free,0.5,0.7,,Illustrative USDA-style seed; verify before use
+yogurt,Plain yogurt,61,4.7,4.7,3.5,3.3,0,46,155,95,0.1,121,0.5,0.2,0.4,0,,,,milk,vegetarian;dairy;lactose;gluten-free,1.03,1,,Illustrative USDA-style seed; verify before use
+egg,Boiled egg,155,1.1,1.1,12.6,10.6,0,124,126,172,1.2,50,0,0.3,1.1,2.2,,,,egg,vegetarian;egg;gluten-free,1.03,1,,Illustrative USDA-style seed; verify before use
+chicken,Roasted chicken breast,165,0,0,31,3.6,0,74,256,228,1,15,0,0.3,0.3,0.1,,,,,meat;gluten-free,1.04,0.95,,Illustrative USDA-style seed; verify before use
+tofu,Firm tofu,144,2.8,0.6,17.3,8.7,2.3,14,237,190,2.7,683,0,2.4,0,0,,,,soy,vegan;legume;gluten-free,1.03,1,,Illustrative USDA-style seed; calcium varies by coagulant
+chapati,Whole wheat chapati,297,46.4,2.7,11.3,7.5,7.2,400,266,211,3.5,93,0,2,0,0,,,,wheat,vegan;grain;gluten,0.55,0.9,,Illustrative recipe; sodium and oil vary
+peanut,Roasted peanuts,587,21.3,4.9,24.4,49.7,8.4,6,634,363,1.6,58,0,0,0,0,,,,peanut,vegan;nut;gluten-free,0.6,0.8,,Illustrative USDA-style seed; verify before use

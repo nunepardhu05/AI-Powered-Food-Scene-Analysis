@@ -1,0 +1,26 @@
+id: coronary-artery-disease
+name: Coronary artery disease
+group: Cardiovascular
+version: 0.1.0
+tier: 1
+status: draft
+personalized: true
+icd10cm: I25.1
+icd11: null
+coding_note: Category-level ICD-10-CM where verified; unmapped entries need professional
+  coding; never an inferred diagnosis
+limits:
+  sodium_mg:
+    maximum: 2300
+    unit: mg
+per_meal_limits: {}
+prefer:
+- Prefer unsaturated fats and whole foods
+avoid:
+- trans fats
+source:
+  organization: AHA
+  url: https://www.heart.org/en/healthy-living/healthy-eating
+  verification: Candidate source; rule not clinically reviewed
+last_reviewed: null
+reviewer: null

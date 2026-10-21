@@ -1,0 +1,1 @@
+Browser checks passed: desktop and mobile, onboarding, condition selection, meal calculation, journal persistence, plan request, no JavaScript errors, no horizontal overflow.

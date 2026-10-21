@@ -1,0 +1,56 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 984B done
+#1 DONE 0.0s
+
+#2 resolve image config for docker-image://docker.io/docker/dockerfile:1
+#2 DONE 0.5s
+
+#3 docker-image://docker.io/docker/dockerfile:1@sha256:4edf897a3ffa55b89f906fc8cc78afdb3f1834cc9c7083565e611a8a7d5fe99e
+#3 CACHED
+
+#4 [internal] load metadata for docker.io/library/python:3.12.14-slim-bookworm
+#4 DONE 0.6s
+
+#5 [internal] load .dockerignore
+#5 transferring context: 136B done
+#5 DONE 0.0s
+
+#6 [stage-0 1/9] FROM docker.io/library/python:3.12.14-slim-bookworm@sha256:392307d22300de8b5986851a12d9176dfc0fc073e65bf6523ebd7dcbeb23564e
+#6 DONE 0.0s
+
+#7 [internal] load build context
+#7 transferring context: 125.57kB done
+#7 DONE 0.0s
+
+#8 [stage-0 2/9] WORKDIR /app
+#8 CACHED
+
+#9 [stage-0 3/9] COPY requirements.lock ./
+#9 CACHED
+
+#10 [stage-0 4/9] RUN --mount=type=secret,id=proxy_ca     if [ -f /run/secrets/proxy_ca ]; then PIP_CERT=/run/secrets/proxy_ca pip install --no-cache-dir -r requirements.lock; else pip install --no-cache-dir -r requirements.lock; fi
+#10 CACHED
+
+#11 [stage-0 5/9] RUN useradd --uid 10001 --create-home nutri && mkdir /app/local-data && chown nutri:nutri /app/local-data
+#11 CACHED
+
+#12 [stage-0 6/9] COPY --chown=nutri:nutri app ./app
+#12 DONE 0.7s
+
+#13 [stage-0 7/9] COPY --chown=nutri:nutri data/foods.csv data/recipes.json ./data/
+#13 DONE 0.8s
+
+#14 [stage-0 8/9] COPY --chown=nutri:nutri config.yaml ./
+#14 DONE 0.9s
+
+#15 [stage-0 9/9] RUN mkdir /app/models && chown nutri:nutri /app/models
+#15 DONE 0.9s
+
+#16 exporting to image
+#16 exporting layers
+#16 exporting layers 0.8s done
+#16 writing image sha256:a37461a45961f3e9c37f0a3fa59b10da8d383b845ba49e74a6f1aa879def2ad4 done
+#16 naming to docker.io/library/nutriscope:local done
+#16 DONE 0.8s

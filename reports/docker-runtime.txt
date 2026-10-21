@@ -1,0 +1,2 @@
+Docker runtime PASS: health, profile, 130 kcal/100 g rice calculation, persisted journal, five-slot menu, deletion.
+Test container configured as non-root with read-only root filesystem, temporary writable SQLite storage, dropped capabilities, and loopback-only port.

@@ -1,0 +1,22 @@
+id: underweight
+name: Underweight
+group: Metabolic / endocrine
+version: 0.1.0
+tier: 1
+status: draft
+personalized: true
+icd10cm: R63.6
+icd11: null
+coding_note: Category-level ICD-10-CM where verified; unmapped entries need professional
+  coding; never an inferred diagnosis
+limits: {}
+per_meal_limits: {}
+prefer:
+- Energy-dense meals and adequate protein; evaluate cause of low weight
+avoid: []
+source:
+  organization: ESPEN
+  url: https://www.espen.org/guidelines-home/espen-guidelines
+  verification: Candidate source; rule not clinically reviewed
+last_reviewed: null
+reviewer: null

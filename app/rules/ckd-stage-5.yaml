@@ -1,0 +1,22 @@
+id: ckd-stage-5
+name: CKD stage 5
+group: Kidney / urinary
+version: 0.1.0
+tier: 2
+status: draft
+personalized: false
+icd10cm: null
+icd11: null
+coding_note: Category-level ICD-10-CM where verified; unmapped entries need professional
+  coding; never an inferred diagnosis
+limits: {}
+per_meal_limits: {}
+prefer:
+- "Follow your clinician\u2019s individualized nutrition plan"
+avoid: []
+source:
+  organization: KDIGO
+  url: https://kdigo.org/guidelines/ckd-evaluation-and-management/
+  verification: Candidate source; rule not clinically reviewed
+last_reviewed: null
+reviewer: null

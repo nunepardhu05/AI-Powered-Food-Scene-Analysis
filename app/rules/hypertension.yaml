@@ -1,0 +1,26 @@
+id: hypertension
+name: Hypertension
+group: Cardiovascular
+version: 0.1.0
+tier: 1
+status: draft
+personalized: true
+icd10cm: I10
+icd11: null
+coding_note: Category-level ICD-10-CM where verified; unmapped entries need professional
+  coding; never an inferred diagnosis
+limits:
+  sodium_mg:
+    maximum: 2300
+    unit: mg
+per_meal_limits: {}
+prefer:
+- Vegetables and minimally processed meals support blood pressure management
+avoid:
+- high-sodium processed foods
+source:
+  organization: AHA
+  url: https://www.heart.org/en/healthy-living/healthy-eating
+  verification: Candidate source; rule not clinically reviewed
+last_reviewed: null
+reviewer: null

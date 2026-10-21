@@ -1,0 +1,7 @@
+detector,backbone,weight_model,mAP50,mAP50_95,MAE_g,RMSE_g,MAPE_percent,R2,calorie_MAE_kcal,carb_MAE_g,latency_median_ms,latency_p95_ms,model_MB,status
+RF-DETR Small,ResNet50,validation winner,,,,,,,,,,,,not run
+RF-DETR Small,EfficientNetV2-S,validation winner,,,,,,,,,,,,not run
+RF-DETR Small,ConvNeXt-Tiny,validation winner,,,,,,,,,,,,not run
+RF-DETR Base,ResNet50,validation winner,,,,,,,,,,,,not run
+RF-DETR Base,EfficientNetV2-S,validation winner,,,,,,,,,,,,not run
+RF-DETR Base,ConvNeXt-Tiny,validation winner,,,,,,,,,,,,not run

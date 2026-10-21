@@ -1,0 +1,4 @@
+{
+  "dal": {"ingredients": {"lentils": 0.7, "rice": 0.3}, "note": "Illustrative dal-rice mixture, not a recipe identification; confirm ingredients, oil and salt"},
+  "chicken rice bowl": {"ingredients": {"rice": 0.5, "chicken": 0.3, "broccoli": 0.2}, "note": "Typical illustrative ratios; hidden oils and sauces excluded; user confirmation required"}
+}
