@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.sqlite*
+models/*
+!models/README.md
+data/raw/
+data/processed/
+.env
